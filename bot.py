@@ -25,6 +25,9 @@ while True:
 					app.connect()
 					try:
 						app.set_username(o)
+          await app.update_profile(first_name="ᥲხ᥆᥆ძ ᥡᥲხɦ #1")
+          await
+app.update_profile(bio="α𝖻᥆᥆ძ - ᥒᥙ𝗆𝖻𝖾𝗋 1 , 𝗍h𝖾 𝗌𝗍𝗋᥆ᥒ𝗀 , @ToGoLang🐊 ,")
 						qq+=1
 						op = requests.post(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={idown}&text=𝑰𝒔 𝒂 𝑵𝒆𝒘 𝒖𝒔𝒆𝒓 𝑩𝒚 : 𝒂𝑩𝒐𝒐𝑫 𝒀𝒂𝑩𝒉 🐊,
 এ〔 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 〕: @{o}
