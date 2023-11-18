@@ -127,4 +127,5 @@ def text(message):
  				bot.send_message(message.chat.id, text="Done Login")
  			except:
  				bot.send_message(message.chat.id, text="- Error , try Again.")
+print('Done')
 bot.polling(none_stop=True)
