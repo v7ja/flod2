@@ -41,8 +41,8 @@ Wrong : {e}''')
 						pass
 					except BadRequest as e:
 						qq+=1
-						ok = requests.post(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={idown}&text= ~ ғʟᴏᴏᴅ〔 {qq} 〕
-~ 𝚄𝚂𝙴𝚁 @{o}''')
+						ok = requests.post(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={idown}&text= ~ 𝖿𝗅᥆᥆ძ〔 {qq} 〕
+~ 𝗎𝗌𝖾𝗋 @{o}''')
 					try:
 						sleep(int(open("sleep.txt").read()))
 					except:
